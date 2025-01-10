@@ -1,0 +1,46 @@
+2024.12.22 15:03:07 INFO  Started: Metals version 1.4.2 in folders '/home/syed-hassan-ul-haq/repos/chisel-rtl-comparison/chisel3' for client Visual Studio Code 1.95.3.
+2024.12.22 15:03:08 INFO  time: initialize in 0.32s
+2024.12.22 15:39:41 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.22 15:39:44 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2024.12.22 15:39:44 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/home/syed-hassan-ul-haq/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)
+2024.12.22 15:39:44 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2024.12.22 15:39:44 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2024.12.22 15:39:45 INFO  [info] welcome to sbt 1.5.5 (Ubuntu Java 17.0.13)
+2024.12.22 15:39:53 INFO  [info] loading settings for project nucleusrv-build-build-build from metals.sbt ...
+2024.12.22 15:39:55 INFO  [info] loading project definition from /home/syed-hassan-ul-haq/repos/chisel-rtl-comparison/chisel3/nucleusrv/project/project/project
+2024.12.22 15:40:03 INFO  [info] loading settings for project nucleusrv-build-build from metals.sbt ...
+2024.12.22 15:40:03 INFO  [info] loading project definition from /home/syed-hassan-ul-haq/repos/chisel-rtl-comparison/chisel3/nucleusrv/project/project
+2024.12.22 15:40:18 INFO  [success] Generated .bloop/nucleusrv-build-build.json
+2024.12.22 15:40:18 INFO  [success] Total time: 15 s, completed Dec 22, 2024, 3:40:19 PM
+2024.12.22 15:40:23 INFO  [info] loading settings for project nucleusrv-build from metals.sbt,plugins.sbt ...
+2024.12.22 15:40:23 INFO  [info] loading project definition from /home/syed-hassan-ul-haq/repos/chisel-rtl-comparison/chisel3/nucleusrv/project
+2024.12.22 15:40:29 INFO  [success] Total time: 5 s, completed Dec 22, 2024, 3:40:29 PM
+2024.12.22 15:40:40 ERROR /home/syed-hassan-ul-haq/repos/chisel-rtl-comparison/chisel3/nucleusrv/build.sbt:66: warning: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+2024.12.22 15:40:40 ERROR logBuffered in Test := false
+2024.12.22 15:40:40 ERROR             ^
+2024.12.22 15:40:40 ERROR /home/syed-hassan-ul-haq/repos/chisel-rtl-comparison/chisel3/nucleusrv/build.sbt:68: warning: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+2024.12.22 15:40:40 ERROR parallelExecution in Test := false
+2024.12.22 15:40:40 ERROR                   ^
+2024.12.22 15:40:42 INFO  [info] loading settings for project root from build.sbt ...
+2024.12.22 15:40:42 INFO  [info] set current project to nucleusrv (in build file:/home/syed-hassan-ul-haq/repos/chisel-rtl-comparison/chisel3/nucleusrv/)
+2024.12.22 15:42:00 INFO  [success] Generated .bloop/root-test.json
+2024.12.22 15:42:00 INFO  [success] Generated .bloop/root.json
+2024.12.22 15:42:00 INFO  [success] Total time: 77 s (01:17), completed Dec 22, 2024, 3:42:00 PM
+2024.12.22 15:42:01 INFO  time: ran 'sbt bloopInstall' in 2m19s
+2024.12.22 15:42:01 INFO  Attempting to connect to the build server...
+2024.12.22 15:42:01 INFO  No running Bloop server found, starting one.
+2024.12.22 15:42:59 INFO  Starting compilation server
+2024.12.22 15:43:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syed-hassan-ul-haq/repos/chisel-rtl-comparison/chisel3/.metals/bsp.trace.json or /home/syed-hassan-ul-haq/.cache/metals/bsp.trace.json
+2024.12.22 15:43:17 INFO  time: Connected to build server in 1m16s
+2024.12.22 15:43:17 INFO  Connected to Build server: Bloop v2.0.6
+2024.12.22 15:43:18 INFO  time: Imported build in 0.28s
+2024.12.22 15:43:18 INFO  running doctor check
+2024.12.22 15:43:18 INFO  java targets: root-test, root
+2024.12.22 15:43:18 WARN  2.12.10 is no longer supported in the current Metals versions, using the last known supported version 0.11.12
+2024.12.22 15:43:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.12.22 15:44:05 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.12.22 15:44:05 INFO  time: indexed workspace in 47s
+2024.12.23 13:14:42 INFO  Shutting down server
+2024.12.23 13:14:42 INFO  shutting down Metals
+2024.12.23 13:14:42 INFO  Shut down connection with build server.
+2024.12.23 13:14:42 INFO  Exiting server

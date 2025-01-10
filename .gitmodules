@@ -1,0 +1,8 @@
+[submodule "chisel6/nucleusrv"]
+	path = chisel6/nucleusrv
+	url = git@github.com:SyedHassanUlHaq/nucleusrv.git
+	branch = chisel6
+[submodule "chisel3/nucleusrv"]
+	path = chisel3/nucleusrv
+	url = git@github.com:merledu/nucleusrv.git
+	branch = dev_csr
